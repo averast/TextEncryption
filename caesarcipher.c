@@ -24,14 +24,14 @@ int main()
 
    //using switch case statements
    switch(x) {
-   case 1:
+   case 1: // Encrypt
       for(i = 0; (i < 100 && text[i] != '\0'); i++) {
         text[i] = text[i] + 3; //the key for encryption is 3 that is added to ASCII value
       }
       printf("\nEncrypted string: %s\n", text);
       break;
 
-   case 2:
+   case 2: // Decrypt
       for(i = 0; (i < 100 && text[i] != '\0'); i++) {
         text[i] = text[i] - 3; //the key for encryption is 3 that is subtracted to ASCII value
       }
